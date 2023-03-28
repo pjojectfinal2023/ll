@@ -1,0 +1,6 @@
+gunicorn
+flask 
+oni
+numpy
+joblab
+ajax
