@@ -1,6 +1,7 @@
 gunicorn
 flask 
-oni
 numpy
 joblab
-ajax
+json
+scikit-learn
+os
