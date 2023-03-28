@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(../img/bg.jpg); 
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    
+}
+.filter
+{
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+nav{
+    width: 100%;
+    z-index: 999999999999999;
+}
+.itemac
+{
+    transition: all 5s;
+    position: relative;
+    margin: 10px ;
+
+}
+.hr
+{
+   background-color: white;
+    border: white solid 1px;
+    opacity: 1;
+    width: 100%;
+    visibility: hidden;
+    position: absolute;
+    left: -20px;
+    transition: all 0.5s;
+}
+.itemac:hover .hr
+{
+    visibility: visible;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+.container-fluid
+{
+    width: 85%;
+}
+
+.filter h1
+{
+    font-size: 70px;
+}
+.filter h3::after{
+    content: '|';
+    animation-name: show;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+/* 
+  Desiner
+a Freelancer.|
+a Photographer.|
+a Designer.|
+*/
+@keyframes show {
+    0%{content: 'D|' ;}
+    1%{content: 'De|' ;}
+    2%{content: 'Des|' ;}
+    3%{content: 'Desi|' ;}
+    4%{content: 'Desin|' ;}
+    5%{content: 'Desine|' ;}
+    6%{content: 'Desiner|' ;}
+    7%{content: 'Desine|' ;}
+    8%{content: 'Desin|' ;}
+    9%{content: 'Desi|' ;}
+    10%{content: 'Des|' ;}
+    11%{content: 'De|' ;}
+    12%{content: 'D|' ;}
+    13%{content: ' |' ;}
+    15%{content: 'F|' ;}
+    16%{content: 'Fr |' ;}
+    17%{content: 'Fre|' ;}
+    18%{content: 'Free|' ;}
+    19%{content: 'Freel|' ;}
+    20%{content: 'Freela|' ;}
+    21%{content: 'Freelan|' ;}
+    22%{content: 'Freelanc|' ;}
+    23%{content: 'Freelance|' ;}
+    24%{content: 'Freelancer.|' ;}
+    25%{content: 'Freelancer|' ;}
+    26%{content: 'Freelance|' ;}
+    27%{content: 'Freelanc|' ;}
+    28%{content: 'Freelan|' ;}
+    29%{content: 'Freela|' ;}
+    30%{content: 'Freel|' ;}
+    31%{content: 'Free|' ;}
+    32%{content: 'Fre|' ;}
+    33%{content: 'Fr|' ;}
+    34%{content: 'F|' ;}
+    35%{content: ' |' ;}
+    36%{content: '|' ;}
+    37%{content: 'P|' ;}
+    38%{content: 'Ph|' ;}
+    39%{content: 'Pho|' ;}
+    40%{content: 'Phot|' ;}
+    41%{content: 'Photo|' ;}
+    42%{content: 'Photog|' ;}
+    43%{content: 'Photogr|' ;}
+    44%{content: 'Photogra|' ;}
+    45%{content: 'Photograp|' ;}
+    46%{content: 'Photograph|' ;}
+    47%{content: 'Photographer|' ;}
+    48%{content: 'Photographe|' ;}
+    49%{content: 'Photograph|' ;}
+    50%{content: 'Photograp|' ;}
+    51%{content: 'Photogra|' ;}
+    52%{content: 'Photogr|' ;}
+    53%{content: 'Photog|' ;}
+    54%{content: 'Photo|' ;}
+    55%{content: 'Phot|' ;}
+    56%{content: 'Pho|' ;}
+    57%{content: 'Ph|' ;}
+    58%{content: 'P|' ;}
+    100%{content: '|' ;}
+    }
+    .w-85
+    {
+        width: 85%;
+    }
+    .w-90
+    {
+        width: 90%;
+    }
+
+
+
+    .box
+    {
+        box-shadow: 0 0 10px rgb(174, 174, 174);
+    }
+    .bg-offwithe
+    {
+        background-color: rgb(245, 245, 245);
+    }
+    .bg-endpost
+    {
+        background-color: rgb(247, 247, 247);
+    }
+    .loud
+    {
+        background-color: rgb(205, 225, 248);
+        width: 100%;
+        height: 10px;
+    }
+    .avrg
+    {
+        background-color: rgb(0, 120, 255);
+        height: 10px;
+    }
+    .about{
+        position: relative;
+    }
+    .about::after{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        content: "";
+        background-color: rgb(0, 120, 255);
+        width: 20%;
+        height: 4px;
+    }
+    .text-gray
+    {
+        color: rgb(78, 78, 78); /* sans-serif */
+    }
+    .sec1{height: 800px;}
+    /* 000000000000000000000000000 */
+    .SERVICES
+    {
+        position: relative;
+    }
+    .SERVICES::after{  /* .......video lina... */
+        position: absolute;
+        top: 190%;
+        left: 50%;
+        content: "";
+        background-color: rgb(0, 120, 255);
+        width: 5%;
+        height: 5px;
+        transform: translate(-50%,-50%);
+    }
+    /* break */
+    .break1
+    {
+        background-attachment: fixed;
+        background-image: url(../img/bg.1.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        height: auto;
+        width: 100%;
+    }
+    .filter2
+    {
+        background-color: rgba(21, 106, 203,0.7);
+        width: 100%;
+    }
+    .break2
+    {
+        background-attachment: fixed;
+        background-image: url(../img/bg.2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 600px;
+        width: 100%;
+    }
+    .filter2
+    {
+        background-color: rgba(77, 159, 243,);
+        height: 100%;
+        width: 100%;
+    }
+    .breake
+    {
+        background-attachment: fixed;
+        background-image: url(../img/bg.2.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+    .filtere
+    {
+        background-color: rgb(20, 103, 212,0.8);
+    }
+
+
+
+    .border-main2
+    {
+        border:rgb(0, 120, 255) 10px solid ;
+        border-radius: 50%;
+        background-color: transparent;
+        padding: 30px;
+    }
+    .num i{
+        transition: 1s all;
+    }
+    .num i:hover
+    {
+        border:rgb(205, 225, 248) 10px solid ;
+        background-color: rgb(0, 120, 255);
+        color: white;
+    }
+    .border-main3
+    {
+        border:white 10px solid ;
+        border-radius: 50%;
+        background-color: transparent;
+        padding: 40px;
+    }
+    .ch img
+    {
+        transition: all 3s;
+    }
+    .ch img:hover
+    {
+        transform: scale(2,2);
+    }
+    .plus
+    {
+        font-size: 50px;
+        color: white;
+        background-color: rgb(0, 120, 255);
+        border-radius: 50%;
+        border: rgb(0, 120, 255) 5px solid;
+
+    }
+    .plus:hover
+    {
+        color: rgb(0, 120, 255);
+        background-color: white;
+        border: rgb(9, 82, 165) 5px solid;
+    }
+    .next{
+    font-size: 15px;
+    }
+    .next:hover
+    {
+     opacity: 0.5;
+    }
+    .border-main4
+    {
+        border: 2px rgb(210, 210, 210) solid ;
+    }
+    .miny-borber-main4
+    {
+        border: 2px rgb(210, 210, 210) solid ;
+       
+    }
+    .reblu a
+    {
+        color: black;
+        transition: all 0.5s;
+    }
+    .reblu a:hover
+    {
+        color: rgb(0, 120, 255);
+    }
+    .data-in
+    {
+        font-size: 18px;
+        margin: 10px;
+        width: 100%;
+        padding: 10px;
+        border: 2px rgb(210, 210, 210) solid ;
+    }
+    .data-but
+    {
+
+        font-size: 18px;
+        border: white 5px solid;
+        color: white;
+        padding: 15px;
+        border-radius: 50rem;
+        background-color:rgb(0, 120, 255); 
+    }
+    .data-but:hover
+    {
+        border: rgb(210, 210, 210) 5px solid;
+        background-color:rgba(0, 120, 255,0.8); 
+
+    }
+    .border-maine
+    {
+        border:rgb(0, 120, 255) 5px solid ;
+        border-radius: 50%;
+        background-color: transparent;
+        padding: 8px;
+    }
+    .boxe
+    {
+        box-shadow: 0 0 10px rgb(30, 96, 193);
+    }
